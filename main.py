@@ -11,7 +11,9 @@ active_bids = True
 while not active_bids:
     
     all_bids[name] = bid
+
+    print(all_bids)
     active_bids = False
 
-print(all_bids)
+
 
