@@ -16,5 +16,3 @@ while not active_bids:
     if more_bidders == "n":
         active_bids = True
         print(all_bids)
-
-
