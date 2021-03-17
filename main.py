@@ -12,4 +12,10 @@ while not active_bids:
     more_bidders = input("Are there more bidders? ")
     if more_bidders == "n":
         active_bids = True
-        print(all_bids)
+        
+    
+highest_bid = 0
+for i in all_bids:
+    if all_bids[name] > highest_bid:
+        highest_bid = all_bids[name]
+print(highest_bid)
