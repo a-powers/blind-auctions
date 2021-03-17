@@ -18,4 +18,4 @@ highest_bid = 0
 for i in all_bids:
     if all_bids[name] > highest_bid:
         highest_bid = all_bids[name]
-print(highest_bid)
+print(f'The winner is {name} with the bid of {highest_bid}')
