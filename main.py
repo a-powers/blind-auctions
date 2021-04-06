@@ -10,6 +10,8 @@ while continue_bidding:
     bidder = input("What is your name? ")
     bid = int(input("What is your bid? "))
     bid_dict[bidder] = bid
-        
-
-    print(bid_dict)
+    bid_list.append(bid_dict[bidder])
+    more_bidders = input("Are there more bidders? ")
+    if more_bidders == "no":
+        continue_bidding = False
+    print(bid_list)
