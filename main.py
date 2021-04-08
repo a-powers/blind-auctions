@@ -1,10 +1,11 @@
 from replit import clear
 #HINT: You can call clear() to clear the output in the console.
 
-bid_dict = {}
+
 continue_bidding = False
 
 while not continue_bidding:
+    bid_dict = {}
     bidder = input("What is your name? ")
     bid = int(input("What is your bid? "))
     more_bidders = input("Are there more bidders? ")
