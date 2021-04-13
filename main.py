@@ -4,14 +4,3 @@ from replit import clear
 
 continue_bidding = False
 
-while not continue_bidding:
-    bid_dict = {}
-    bidder = input("What is your name? ")
-    bid = int(input("What is your bid? "))
-    more_bidders = input("Are there more bidders? ")
-    if more_bidders == 'no':
-        continue_bidding = True
-    else:
-        bid_dict[bidder] = bid
-    print(bid_dict)
-    
